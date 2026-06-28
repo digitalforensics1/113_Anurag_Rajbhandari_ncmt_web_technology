@@ -1,0 +1,23 @@
+// CSS Grid: 
+        A CSS3 layout system for creating two‑dimensional layouts (rows AND columns).  
+
+        Function: Provides precise control over rows, columns, and gaps.  
+        Usages:   Best for complex page structures like full layouts, dashboards, galleries. 
+         
+        Note: Use display:grid on the parent container.  
+
+        extra key point: Grid allows defining explicit row and column sizes, 
+        and placing items exactly where needed.  
+
+        Code eg: .grid-container {
+                   display: grid;
+                   grid-template-columns: 1fr 1fr 1fr;  /* 3 equal columns */
+                   grid-template-rows: auto auto;       /* 2 rows */
+                   gap: 10px;                           /* spacing between items */
+                 }
+
+                 note: 
+                 1. grid-template-columns → defines column structure.  
+                 2. grid-template-rows → defines row structure.  
+                 3. gap → sets spacing between grid items.  
+                 4. Items can be placed using grid-column and grid-row.  
