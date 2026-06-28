@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Basics Assignment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="animated-title">Welcome to My Responsive Web Page</h1>
+        <p>Demonstrating HTML5, CSS3, Forms, Validation, Responsive Design, and Animation.</p>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>About Nature</h2>
+
+            <figure>
+                <img src="pexels-jplenio-20208915.jpg"
+                     alt="Modern city skyline illuminated at night">
+                <figcaption>
+                    The vibrant city lights create a spectacular nighttime view.
+                </figcaption>
+            </figure>
+
+            <p>
+                This webpage demonstrates the use of semantic HTML elements,
+                form validation, responsive design principles, and CSS animations.
+            </p>
+        </article>
+
+        <article>
+            <h2>Registration Form</h2>
+
+            <form action="#" method="post">
+
+                <label for="email">Email Address *</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Enter your email">
+
+                <label for="date">Date of Birth *</label>
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                    required>
+
+                <label for="range">Experience Level (0-10)</label>
+                <input
+                    type="range"
+                    id="range"
+                    name="range"
+                    min="0"
+                    max="10">
+
+                <label for="website">Website URL *</label>
+                <input
+                    type="url"
+                    id="website"
+                    name="website"
+                    required
+                    placeholder="https://example.com">
+
+                <label for="studentid">9-Digit Student ID *</label>
+                <input
+                    type="text"
+                    id="studentid"
+                    name="studentid"
+                    required
+                    pattern="^[0-9]{9}$"
+                    placeholder="123456789"
+                    title="Please enter exactly 9 digits">
+
+                <label for="number">Age *</label>
+                <input
+                    type="number"
+                    id="number"
+                    name="number"
+                    min="1"
+                    max="120"
+                    required>
+
+                <label for="color">Favorite Color</label>
+                <input
+                    type="color"
+                    id="color"
+                    name="color">
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </article>
+
+    </main>
+
+</body>
+</html>
