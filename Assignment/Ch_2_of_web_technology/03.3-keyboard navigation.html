@@ -1,0 +1,18 @@
+// Keyboard Navigation: 
+        Ensures users can navigate a webpage using only the keyboard.  
+
+        Function: Provides accessibility for users who cannot use a mouse.  
+        Usages:   Use tabindex, focus, and proper HTML structure to enable keyboard navigation.
+          
+        Note: All interactive elements (links, buttons, inputs) should be reachable by Tab key.  
+
+        extra key point: Good keyboard navigation is essential for accessibility compliance.  
+
+        Code eg: <button tabindex="0">Click Me</button>
+                 <a href="#section" tabindex="1">Go to Section</a>
+
+                 note: 
+                 1. Tab key → moves focus between interactive elements.  
+                 2. tabindex → controls the order of focus.  
+                 3. Enter/Space → activates buttons and links.  
+                 4. Avoid removing focus outlines; they show where the user is.  

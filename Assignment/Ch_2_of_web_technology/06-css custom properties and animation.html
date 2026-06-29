@@ -1,0 +1,51 @@
+// CSS custom properties (variables) and transitions/animations
+
+// CSS Custom Properties (Variables):
+// CSS Variables: Also called custom properties, they store reusable values in CSS.
+
+        Function: Allow defining a value once and reusing it across styles.  
+        Usages:   Useful for themes (colors, fonts, spacing) and easy updates. 
+
+        Note: Declared inside :root selector for global scope.  
+
+        extra key point: Changing one variable updates all places it's used.  
+
+        Code eg: :root {
+                   --main-color: purple;
+                   --padding-size: 10px;
+                 }
+
+                 .box {
+                   background-color: var(--main-color);
+                   padding: var(--padding-size);
+                 }
+
+                 note: 
+                 1. :root → defines global variables.  
+                 2. var(--name) → accesses the variable.  
+                 3. Makes CSS easier to maintain and theme.  
+
+
+// CSS Transitions
+// Transitions: Smoothly animate property changes over time.
+  
+        Function: Add gradual effects when properties change (like hover).  
+        Usages:   Used for hover effects, button animations, UI feedback.  
+        Note: Needs a trigger (hover, click, focus).  
+
+        extra key point: transition: property duration easing.  
+
+        Code eg: .btn {
+                   background-color: blue;
+                   transition: background-color 0.5s ease;
+                 }
+
+                 .btn:hover {
+                   background-color: red;
+                 }
+
+                 note: 
+                 1. transition-property → which property changes (e.g., color).  
+                 2. transition-duration → how long (e.g., 0.5s).  
+                 3. transition-timing-function → easing (ease, linear).  
+

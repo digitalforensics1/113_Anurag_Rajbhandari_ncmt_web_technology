@@ -1,0 +1,22 @@
+// Validation attributes
+
+// Validation Attributes: 
+        HTML5 attributes that enforce rules on inputs.  
+
+        Function: Ensure correct data entry before submission.  
+        Usages:   Add to <input>, <textarea>, or <select> for stricter control. 
+         
+        Note: Validation happens automatically in browsers.  
+
+        Code eg: <form>
+                  <input type="email" required>
+                  <input type="text" pattern="[A-Za-z]+" placeholder="Only letters">
+                  <input type="number" min="18" max="60">
+                  <input type="text" maxlength="4" placeholder="4-digit PIN">
+                 </form>
+
+                 note: 
+                 1. required → Field must be filled.  
+                 2. pattern → Regex pattern for input.  
+                 3. min / max → Numeric or date limits.  
+                 4. maxlength → Restricts number of characters.  

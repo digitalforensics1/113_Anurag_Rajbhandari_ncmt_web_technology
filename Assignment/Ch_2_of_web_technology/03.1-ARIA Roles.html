@@ -1,0 +1,21 @@
+// // ARIA Roles: 
+        Accessibility attributes that define the role of an element for assistive technologies.
+
+        Function: They help screen readers understand the purpose of elements (like navigation, button, dialog).  
+        Usages:   Use ARIA roles when native HTML semantics are not enough.  
+        
+        Note: ARIA = Accessible Rich Internet Applications.  
+
+        extra key point: ARIA roles improve accessibility but should not replace proper HTML semantics.  
+
+        Code eg: <nav role="navigation">
+                  <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                  </ul>
+                 </nav>
+
+                 note: 
+                 1. role="navigation" → tells screen readers this is a navigation area.  
+                 2. Common roles: button, dialog, banner, main, contentinfo.  
+                 3. Use ARIA roles only when needed; prefer native HTML first.  

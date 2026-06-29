@@ -1,0 +1,17 @@
+//chapter 2 syllabus 
+
+HTML5 & CSS3 Fundamentals
+
+* HTML5 semantic elements: <header>, <main>, <section>, <article>, <figure>
+* Forms: new input types (email, date, range), validation attributes
+* Accessibility basics: ARIA roles, alt text, keyboard navigation
+* CSS3: Flexbox layout and CSS Grid for modern page structure
+* Responsive design with media queries (mobile-first approach)
+* CSS custom properties (variables) and transitions/animations
+* Dynamic web pages: overview of CSS, the need for client-side scripting
+
+//
+Semantic elements → for page layout and meaning.
+Forms → for user interaction and data collection.
+Accessibility basics → for usability.
+CSS3 topics → for styling and responsiveness.

@@ -1,0 +1,55 @@
+// Responsive design with media queries (mobile-first approach)
+
+
+// Responsive Design: 
+                 A web design approach that makes pages look good on all devices 
+// (desktop, tablet, mobile).  
+
+        Function: Adjusts layout and styles based on screen size.  
+        Usages:   Ensures usability and readability across different devices.  
+        Note: Achieved using CSS media queries and flexible layouts.  
+
+        extra key point: Mobile-first approach means designing for small screens first, 
+        then adding styles for larger screens. 
+        
+        
+     
+ // // Media Queries: 
+                 CSS rules that apply styles only if certain conditions are met 
+                 // (like screen width, orientation).  
+
+        Function: Detects device characteristics and applies appropriate styles.  
+        Usages:   Used to change layout, font size, or hide/show elements depending on screen
+        size.  
+        
+        Note: Syntax uses @media keyword.  
+
+        Code eg: /* Mobile-first default styles */
+                 body {
+                   font-size: 14px;
+                   background-color: lightyellow;
+                 }
+
+                 /* Larger screens (tablet and desktop) */
+                 @media (min-width: 768px) {
+                   body {
+                     font-size: 16px;
+                     background-color: lightblue;
+                   }
+                 }
+
+                 @media (min-width: 1024px) {
+                   body {
+                     font-size: 18px;
+                     background-color: lightgreen;
+                   }
+                 }
+
+                 note: 
+                 1. @media (min-width: …) → applies styles when screen is at least that wide.  
+                 2. Mobile-first → start with small screen styles, then add larger breakpoints.  
+                 3. Common breakpoints: 480px (mobile), 768px (tablet), 1024px (desktop).  
+                 4. Helps maintain consistent design across devices.  
+       
+
+
